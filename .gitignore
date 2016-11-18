@@ -1,7 +1,9 @@
 # OS X temporary metadata
 ._*
 *.DS_Store
-
+.vscode/
+MNIST_data/
+*.npy
 # Extracted parameters
 *.params
 

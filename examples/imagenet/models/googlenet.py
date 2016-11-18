@@ -185,4 +185,4 @@ class GoogleNet(Network):
              .concat(3, name='inception_5b_output')
              .avg_pool(7, 7, 1, 1, padding='VALID', name='pool5_7x7_s1')
              .fc(1000, relu=False, name='loss3_classifier')
-             .softmax(name='prob'))
+        )#.softmax(name='prob'))
