@@ -3,7 +3,9 @@ import numpy as np
 import random
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
-
+#import sys
+#import os
+#sys.path.append(os.path.realpath(os.path.join(os.path.dirname(__file__), '../../')))
 from mynet import LeNet as MyNet
 
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
