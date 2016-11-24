@@ -3,7 +3,10 @@ import numpy as np
 import random
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
-
+import os.path as osp
+import sys
+# Add the kaffe module to the import path
+sys.path.append(osp.realpath(osp.join(osp.dirname(__file__), '../../')))
 from mynet import LeNet as MyNet
 
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)

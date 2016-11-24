@@ -7,4 +7,6 @@
 
 # Python cache
 *.pyc
+*.npy
+MNIST_data
 
